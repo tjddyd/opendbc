@@ -1169,4 +1169,18 @@ FW_VERSIONS = {
       b'\xf1\x00US4_ RDR -----      1.00 1.00 99110-CG000         ',
     ],
   },
+    CAR.KIA_SoulBooster_EV_2019: {
+    (Ecu.abs, 0x7d1, None): [
+      b'\xf1\x00SK IEB \x01 207 \x11  58520-J2000',
+    ],
+    (Ecu.fwdCamera, 0x7c4, None): [
+      b'\xf1\x00SK3EMFC  AT KOR LHD 1.00 1.03 99211-J2000 190116',
+    ],
+    (Ecu.eps, 0x7d4, None): [
+      b'\xf1\x00SK3 MDPS C 1.00 1.02 56300J2200          ',
+    ],
+    (Ecu.fwdRadar, 0x7d0, None): [
+      b'\xf1\x00SKev SCC FHCUP      1.00 1.03 99110-J2000         ',
+    ],
+  },
 }
