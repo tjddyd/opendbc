@@ -1169,7 +1169,7 @@ FW_VERSIONS = {
       b'\xf1\x00US4_ RDR -----      1.00 1.00 99110-CG000         ',
     ],
   },
-    CAR.KIA_SoulBooster_EV_2019: {
+  CAR.KIA_SoulBooster_EV_2019: {
     (Ecu.abs, 0x7d1, None): [
       b'\xf1\x00SK IEB \x01 207 \x11  58520-J2000',
     ],
